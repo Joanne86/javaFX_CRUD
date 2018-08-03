@@ -14,7 +14,7 @@ public class Conexion {
     private Connection connection =null;
     
     public Connection getConnection() {
-		return connection;
+		return connection; // hola he hecho un cambio aqui
 	}
 
 	public void setConnection(Connection connection) {

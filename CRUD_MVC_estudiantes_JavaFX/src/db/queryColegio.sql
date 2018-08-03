@@ -1,0 +1,2 @@
+INSERT INTO estudiante VALUES ('12345', 'leidy rodriguez', 'femenino', '20',STR_TO_DATE(REPLACE('15/01/2005','/','.') ,GET_FORMAT(date,'EUR')),'ing sistemas');
+INSERT INTO estudiante VALUES ('34567', 'Daniel', 'masculino', '21',STR_TO_DATE(REPLACE('15/01/2005','/','.') ,GET_FORMAT(date,'EUR')),'lic ingles');
